@@ -2,3 +2,10 @@
   font-family: raleway-regular;
   src: url(raleway-regular-webfont.woff);
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
