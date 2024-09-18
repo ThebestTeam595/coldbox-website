@@ -8,4 +8,8 @@
   margin-right: auto;
   width: 50%;
 }
+body {
+ background-image: url("home-img.jpg");
+ background-color: #ffffff;
+}
 
