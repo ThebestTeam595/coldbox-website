@@ -4,7 +4,7 @@
 <head>
 <title>Coldbox - An Incredibox Mod</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=0.5">
 <link rel="stylesheet" href="style.css">
 <style>
 h1 {text-align: center;}
@@ -13,8 +13,21 @@ h2 {text-align: center;}
 </head>
 <body>
 
+
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#cbox-home"><p style="font-family:raleway-bold" class="hover-underline">HOME</p></a></li>
+                <li><a href="#cbox-download"><p style="font-family:raleway-bold" class="hover-underline">DOWNLOAD</p></a></li>
+                <li><a href="#cbox-about"><p style="font-family:raleway-bold" class="hover-underline">ABOUT</p></a></li>
+            </ul>
+        </nav>
+    </header>
+
 <h1 style="color:white;"><p style="font-family:raleway-thin"> </p></h1>
+<section id="cbox-home"> </section>
 <style>
+
 body {
   background-image: url('home-img.jpg');
   background-repeat: no-repeat;
@@ -24,29 +37,30 @@ body {
 }
 </style>
 
-<img src="logo_home.png" alt="Coldbox Title" class="center" style="width:500px;height:230px;">
+<div class="container">
+<img src="logo_home.png" alt="Coldbox Title" class="center fade-image" id="fadeImage" style="width:500px;height:230px;">
+<script src="script.js"></script>
+</div>
 
 <body></body>
-    <div class="scrollable-panel center">
-        <img src="gamepreviews/prev_1.jpg" alt="Gameplay Preview">
-        <img src="gamepreviews/prev_1.jpg" alt="Gameplay Preview">
-        <img src="gamepreviews/prev_1.jpg" alt="Gameplay Preview">
-        <img src="gamepreviews/prev_1.jpg" alt="Gameplay Preview">
+    <div class="scrollable-panel center maintain-size">
         <img src="gamepreviews/prev_1.jpg" alt="Gameplay Preview">
         <img src="gamepreviews/prev_1.jpg" alt="Gameplay Preview">
     </div>
 </body>
 
+<section id="cbox-download"> </section>
 <h2 style="color:white;"><p style="font-family:raleway-bold">Download Options</p></h2>
 <div class="image-container">
     <a href="https://www.mediafire.com">
-        <img src="img_button/download_android.png" alt="Android Download" class="responsive-image hover-image" style="width:150px;height:150px;"></a>
+        <img src="img_button/download_android.png" alt="Android Download" class="responsive-image hover-image center" style="width:150px;height:150px;"></a>
     </a>
     <a href="https://www.mediafire.com">
-        <img src="img_button/download_windows.png" alt="Windows Download" class="responsive-image hover-image" style="width:150px;height:150px;"></a>
+        <img src="img_button/download_windows.png" alt="Windows Download" class="responsive-image hover-image center" style="width:150px;height:150px;"></a>
     </a>
 </div>
 
+<section id="cbox-about"> </section>
 <h2 style="color:white;" class="darkcenter"><p style="font-family:raleway-thin"> <br>Coldbox is an Incredibox modification that started development on the December of 2022.<br> <br></p></h2>
 
 </body>
